@@ -21,7 +21,20 @@
         "prepare": "husky",
         "lint": "pnpm run lint:cache ./src/ts/",
         "lint:cache": "pnpm run lint:base --cache",
-        "lint:base": "eslint --ext .tsx,.ts,.jsx,.js"
+        "lint:base": "eslint --ext .tsx,.ts,.jsx,.js",
+        "dev": "webpack serve --config ./webpack.config.dev.ts",
+        "build": "pnpm run build:prod",
+        "build:all": "pnpm run build:dev && pnpm run build:prod",
+        "build:dev": "webpack build --config ./webpack.config.dev.ts",
+        "build:prod": "webpack build --config ./webpack.config.prod.ts",
+        "clean": "pnpm run clean:prod",
+        "clean:all": "pnpm run clean:dev && pnpm run clean:prod",
+        "clean:dev": "rimraf ./dist/dev/",
+        "clean:prod": "rimraf ./dist/prod/",
+        "rebuild": "pnpm run rebuild:prod",
+        "rebuild:all": "pnpm run rebuild:dev && pnpm run rebuild:prod",
+        "rebuild:dev": "pnpm run clean:dev && pnpm run build:dev",
+        "rebuild:prod": "pnpm run clean:prod && pnpm run build:prod"
     },
     "devDependencies": {
         "@types/node": "^20.11.7",
