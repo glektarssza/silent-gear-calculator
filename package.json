@@ -1,0 +1,23 @@
+{
+    "name": "silent-gear-calculator",
+    "description": "A simple web application for creating tools for the Silent Gear Minecraft mod.",
+    "version": "0.0.0",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "private": true,
+    "author": {
+        "name": "G'lek Tarssza",
+        "email": "glek@glektarssza.com",
+        "url": "https://glektarssza.com"
+    },
+    "homepage": "https://glektarssza.github.io/silent-gear-calculator",
+    "bugs": {
+        "url": "https://github.com/glektarssza/silent-gear-calculator/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/glektarssza/silent-gear-calculator"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "devDependencies": {}
+}
