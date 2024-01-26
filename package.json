@@ -36,6 +36,14 @@
         "rebuild:dev": "pnpm run clean:dev && pnpm run build:dev",
         "rebuild:prod": "pnpm run clean:prod && pnpm run build:prod"
     },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "optionalDependencies": {
+        "@types/react": "^18.2.48",
+        "@types/react-dom": "^18.2.18"
+    },
     "devDependencies": {
         "@faker-js/faker": "^8.4.0",
         "@jsdevtools/coverage-istanbul-loader": "^3.0.5",
@@ -84,9 +92,5 @@
         "webpack-cli": "^5.1.4",
         "webpack-dev-server": "^4.15.1",
         "webpack-merge": "^5.10.0"
-    },
-    "dependencies": {
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
     }
 }
