@@ -17,7 +17,11 @@
         "type": "git",
         "url": "https://github.com/glektarssza/silent-gear-calculator"
     },
-    "scripts": {},
+    "scripts": {
+        "prepare": "husky"
+    },
     "dependencies": {},
-    "devDependencies": {}
+    "devDependencies": {
+        "husky": "^9.0.6"
+    }
 }
