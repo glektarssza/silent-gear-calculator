@@ -18,6 +18,11 @@
         "url": "https://github.com/glektarssza/silent-gear-calculator"
     },
     "scripts": {
+        "test": "npm run test:ci",
+        "test:ci": "karma start --single-run --browsers ChromeHeadless",
+        "test:watch": "npm run test:base --single-run --browsers ChromeHeadless --auto-watch",
+        "test:debug": "npm run test:base start",
+        "test:base": "karma",
         "prepare": "husky",
         "lint": "npm run lint:cache ./src/ts/ ./tests/",
         "lint:cache": "npm run lint:base --cache",
