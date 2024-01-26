@@ -13,5 +13,5 @@ updates:
     schedule:
       interval: weekly
       day: wednesday
-      time: "12:00 PM"
+      time: "12:00"
       timezone: Canada/Mountain
