@@ -41,3 +41,9 @@ node_modules/
 # Caches #
 ## ESLint ##
 .eslintcache
+
+## Jest ##
+.cache/
+
+# Covearge #
+coverage/
