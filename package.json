@@ -18,6 +18,12 @@
         "url": "https://github.com/glektarssza/silent-gear-calculator"
     },
     "scripts": {
+        "test": "npm run test:base",
+        "test:coverage": "npm run test:base -- --collectCoverage",
+        "test:watch": "npm run test:base -- --watchAll",
+        "test:ci": "npm run test:base -- --ci",
+        "test:ci:coverage": "npm run test:ci -- --collectCoverage",
+        "test:base": "jest",
         "prepare": "husky",
         "lint": "npm run lint:cache ./src/ts/ ./tests/",
         "lint:cache": "npm run lint:base --cache",
