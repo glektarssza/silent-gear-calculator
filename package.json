@@ -53,10 +53,10 @@
     "devDependencies": {
         "@faker-js/faker": "^8.4.1",
         "@types/jest": "^29.5.12",
-        "@types/node": "^20.11.25",
+        "@types/node": "^20.11.27",
         "@types/webpack": "^5.28.5",
-        "@typescript-eslint/eslint-plugin": "^7.1.1",
-        "@typescript-eslint/parser": "^7.1.1",
+        "@typescript-eslint/eslint-plugin": "^7.2.0",
+        "@typescript-eslint/parser": "^7.2.0",
         "css-loader": "^6.10.0",
         "cssnano": "^6.1.0",
         "eslint": "^8.57.0",
@@ -72,7 +72,7 @@
         "jest-mock-extended": "^3.0.5",
         "postcss": "^8.4.35",
         "postcss-loader": "^8.1.1",
-        "pug-plugin": "^4.9.9",
+        "pug-plugin": "^5.0.1",
         "rimraf": "^5.0.5",
         "sass": "^1.71.1",
         "sass-loader": "^14.1.1",
@@ -84,7 +84,7 @@
         "typescript": "^5.4.2",
         "webpack": "^5.90.3",
         "webpack-cli": "^5.1.4",
-        "webpack-dev-server": "^5.0.2",
+        "webpack-dev-server": "^5.0.3",
         "webpack-merge": "^5.10.0"
     }
 }
