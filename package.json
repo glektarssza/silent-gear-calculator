@@ -47,8 +47,8 @@
         "react-dom": "^18.2.0"
     },
     "optionalDependencies": {
-        "@types/react": "^18.2.64",
-        "@types/react-dom": "^18.2.21"
+        "@types/react": "^18.2.65",
+        "@types/react-dom": "^18.2.22"
     },
     "devDependencies": {
         "@faker-js/faker": "^8.4.1",
