@@ -1,16 +1,17 @@
 //-- NPM Packages
-import {base, en, en_CA, en_US, Faker} from '@faker-js/faker';
+import {expect} from 'chai';
 
-/**
- * The fake data generator.
- */
-const fake = new Faker({
-    locale: [en_CA, en_US, en, base]
-});
+//-- Project Code
+import {hello} from '../src/ts/dummy';
 
 describe('A dummy test', () => {
-    beforeAll(() => {
-        fake.seed(jest.getSeed());
+    it('should pass', () => {
+        //-- Given
+
+        //-- When
+        const r = hello();
+
+        //-- Then
+        expect(r).to.equal('Hello world!');
     });
-    it('should pass', () => {});
 });

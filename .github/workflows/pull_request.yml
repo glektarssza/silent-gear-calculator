@@ -45,7 +45,7 @@ jobs:
         run: npm install
       - id: run-tests
         name: Run tests
-        run: npm run test:ci:coverage
+        run: npm run test:ci
   build:
     name: Build
     runs-on: ubuntu-latest
