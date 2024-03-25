@@ -1,3 +1,7 @@
+//-- NPM Packages
+import {expect} from 'chai';
+
+//-- Project Code
 import {hello} from '../src/ts/dummy';
 
 describe('A dummy test', () => {
@@ -8,6 +12,6 @@ describe('A dummy test', () => {
         const r = hello();
 
         //-- Then
-        expect(r).toEqual('Hello world!');
+        expect(r).to.equal('Hello world!');
     });
 });
